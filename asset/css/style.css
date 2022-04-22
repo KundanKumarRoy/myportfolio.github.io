@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#6e6e6e;
+    
+}
+
+/*  ========================================
+        2. Global Classes 
+    ======================================== */
+.sec-pd{
+    padding: 80px 0;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 16px;
+    color: #0c0c0c !important;
+}
+.home{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.progress{
+    height: .75rem;
+}
+.title-holder > span::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 100%;
+    width: 40px;
+    height: 1px;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    background-color: #f52225;
+}
+.learn-more span{
+    position: absolute;
+    height: 2px;
+    color: #6e6e6e;
+    border-radius: 50px;
+}
+
+.input-box{
+    position: relative;
+}
+.input-box input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+    
+    outline: none;
+}
